@@ -20,7 +20,7 @@ In the first phase, we prepare the knowledge base that the chatbot will use for 
 
 1️⃣ Load PDFs
 
-We allow the user to upload any number of PDF documents. These documents are extracted into raw text using:
+First we will add the document(PDF). These documents are extracted into raw text using:
 
 --> PyPDFLoader (LangChain) OR pdfplumber
 
@@ -119,8 +119,14 @@ ________________________________________________________________________________
               Framework                                          Python, LangChain
               Frontend                                           Streamlit
               PDF Processing                                     pyPDFLoader, pdfplumber
+____________________________________________________________________________________________________
+              ✨Library Used
 
-
+              --> langchain
+              --> langchain-community
+              --> langchain_huggingface
+              --> faiss-cpu
+____________________________________________________________________________________________________
 🎯 Key Features
 
 -->   Fully working RAG architecture

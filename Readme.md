@@ -145,6 +145,7 @@ ________________________________________________________________________________
       ✨How to use it
 
       --> Go to medibot.py
+      --> create a .env file and add a groq API key in it
       --> In the command prompt run (streamlit run medibot.py)
 ____________________________________________________________________________________________________
 
